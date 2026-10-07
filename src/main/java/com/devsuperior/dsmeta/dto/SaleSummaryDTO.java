@@ -3,18 +3,18 @@ package com.devsuperior.dsmeta.dto;
 public class SaleSummaryDTO {
 
 	private String sellerName;
-	private Double sum;
+	private Double total;
 
-	public SaleSummaryDTO(String sellerName, Double sum) {
+	public SaleSummaryDTO(String sellerName, Double total) {
 		this.sellerName = sellerName;
-		this.sum = sum;
+		this.total = total;
 	}
 
 	public String getSellerName() {
 		return sellerName;
 	}
 
-	public Double getSum() {
-		return sum;
+	public Double getTotal() {
+		return total;
 	}
 }
